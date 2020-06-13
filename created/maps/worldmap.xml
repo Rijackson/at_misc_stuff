@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<worldmap>
+  <segment id="mycellar" x="30" y="15">
+    <map id="mycellar1" x="99" y="82"/>
+    <map id="mycellar2" x="95" y="51"/>
+    <map id="mycellar21" x="64" y="40"/>
+    <map id="mycellar22" x="126" y="63"/>
+    <map id="mycellar23" x="30" y="36"/>
+    <map id="mycellar24" x="158" y="29"/>
+    <map id="mycellar3" x="98" y="18"/>
+    <map id="mycellar3_left1" x="90" y="31"/>
+    <map id="mycellar3_left2" x="88" y="23"/>
+    <map id="mycellar3_left3" x="88" y="15"/>
+    <map id="mycellar3_right1" x="124" y="31"/>
+    <map id="mycellar3_right2" x="126" y="23"/>
+    <map id="mycellar3_right3" x="126" y="15"/>
+    <map id="mycellar4" x="95" y="107"/>
+  </segment>
+</worldmap>
