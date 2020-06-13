@@ -16,4 +16,16 @@
     <map id="mycellar3_right3" x="126" y="15"/>
     <map id="mycellar4" x="95" y="107"/>
   </segment>
+  <segment id="hilltown" x="1270" y="366">
+    <map id="hilltown2" x="1282" y="377"/>
+    <map id="hilltown5" x="1313" y="408"/>
+    <map id="hilltown1" x="1282" y="408"/>
+    <map id="hilltown10" x="1270" y="366"/>
+    <map id="hilltown3" x="1270" y="377"/>
+    <map id="hilltown4" x="1271" y="408"/>
+    <map id="hilltown6" x="1313" y="377"/>
+    <map id="hilltown7" x="1298" y="439"/>
+    <map id="hilltown8" x="1271" y="439"/>
+    <map id="hilltown9" x="1298" y="366"/>
+  </segment>
 </worldmap>
