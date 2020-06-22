@@ -248,6 +248,7 @@
     <map id="road4_gargoylecave2" x="382" y="424"/>
     <map id="road4_gargoylecave3" x="403" y="412"/>
     <map id="road4_north" x="441" y="438"/>
+    <map id="road6" x="581" y="455"/>
     <namedarea id="crossglen" name="Crossglen" type="settlement"/>
     <namedarea id="crossroads" name="Crossroads Guardhouse" type="other"/>
   </segment>

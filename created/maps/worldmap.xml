@@ -28,4 +28,14 @@
     <map id="hilltown8" x="1271" y="439"/>
     <map id="hilltown9" x="1298" y="366"/>
   </segment>
+  <segment id="medullan" x="223" y="611">
+    <map id="medullan1" x="254" y="624"/>
+    <map id="medullan2" x="223" y="620"/>
+    <map id="medullan3" x="254" y="620"/>
+    <map id="medullan4" x="331" y="640"/>
+    <map id="medullan5" x="319" y="663"/>
+    <map id="medullan6" x="321" y="626"/>
+    <map id="medullan7" x="302" y="645"/>
+    <map id="medullan8" x="287" y="611"/>
+  </segment>
 </worldmap>
