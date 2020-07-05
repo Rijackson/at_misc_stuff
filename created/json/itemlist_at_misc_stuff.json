@@ -1,0 +1,30 @@
+[
+    {
+        "id":"stiletto_superior",
+        "iconID":"items_tometik3:33",
+        "name":"Superior stiletto",
+        "displaytype":"ordinary",
+        "category":"dagger",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":1,
+                "max":4
+            },
+            "increaseAttackCost":4,
+            "increaseAttackChance":17,
+            "increaseCriticalSkill":19,
+            "setCriticalMultiplier":2.5,
+            "setNonWeaponDamageModifier":105
+        },
+        "hitEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"speed_minor",
+                    "magnitude":2,
+                    "duration":2,
+                    "chance":"1"
+                }
+            ]
+        }
+    }
+]
