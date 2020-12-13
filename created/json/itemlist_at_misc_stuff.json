@@ -50,4 +50,39 @@
             ]
         }
     }
+	   {
+        "id":"elixir_unknown",
+        "iconID":"items_misc_3:98",
+        "name":"Strange elixir",
+        "displaytype":"quest",
+        "category":"pot",
+        "description":"A bottle of some unknown liquid from the caves south of Fallhaven."
+    },
+	{
+        "id":"widowmaker",
+        "iconID":"items_misc_6:20",
+        "name":"Widowmaker",
+        "displaytype":"extraordinary",
+        "category":"rapier",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":2,
+                "max":6
+            },
+            "increaseAttackCost":5,
+            "increaseAttackChance":20,
+            "increaseBlockChance":4,
+            "setNonWeaponDamageModifier":120
+        },
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"infected_wound",
+                    "magnitude":1,
+                    "duration":3,
+                    "chance":"7"
+                }
+            ]
+        }
+    }
 ]
