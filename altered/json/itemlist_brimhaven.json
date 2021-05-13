@@ -1,0 +1,30 @@
+[
+    {
+        "id":"hammer_carpenter",
+        "iconID":"items_misc_2:187",
+        "name":"Carpenter's hammer",
+        "displaytype":"ordinary",
+        "category":"club",
+        "description":"When all you have is a hammer, every monster looks like a nail.",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":1,
+                "max":1
+            },
+            "increaseAttackCost":4,
+            "increaseAttackChance":2,
+            "increaseBlockChance":1,
+            "setNonWeaponDamageModifier":94
+        }
+    },
+    {
+        "id":"tunic_quilted",
+        "iconID":"items_misc_2:215",
+        "name":"Quilted tunic",
+        "category":"bdy_clth",
+        "equipEffect":{
+            "increaseBlockChance":3,
+            "increaseDamageResistance":1
+        }
+    }
+]
