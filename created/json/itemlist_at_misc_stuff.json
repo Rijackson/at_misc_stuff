@@ -49,8 +49,8 @@
                 }
             ]
         }
-    }
-	   {
+    },
+    {
         "id":"elixir_unknown",
         "iconID":"items_misc_3:98",
         "name":"Strange elixir",
@@ -58,7 +58,7 @@
         "category":"pot",
         "description":"A bottle of some unknown liquid from the caves south of Fallhaven."
     },
-	{
+    {
         "id":"widowmaker",
         "iconID":"items_misc_6:20",
         "name":"Widowmaker",
@@ -81,6 +81,212 @@
                     "magnitude":1,
                     "duration":3,
                     "chance":"7"
+                }
+            ]
+        }
+    },
+    {
+        "id":"sword_shimmering",
+        "iconID":"items_weapons_2:3",
+        "name":"Shimmering sword",
+        "displaytype":"legendary",
+        "hasManualPrice":1,
+        "baseMarketCost":6666,
+        "category":"rapier",
+        "description":"Your eyes cannot focus on the blade; it seems to continuously change appearance. ",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":2,
+                "max":6
+            },
+            "increaseAttackCost":5,
+            "increaseAttackChance":25,
+            "increaseBlockChance":5,
+            "setNonWeaponDamageModifier":116
+        },
+        "hitEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"courage",
+                    "magnitude":2,
+                    "duration":2,
+                    "chance":"5"
+                },
+                {
+                    "condition":"feebleness_minor",
+                    "magnitude":2,
+                    "duration":2,
+                    "chance":"3"
+                }
+            ],
+            "conditionsTarget":[
+                {
+                    "condition":"bleeding_wound",
+                    "magnitude":3,
+                    "duration":3,
+                    "chance":"6"
+                },
+                {
+                    "condition":"fear",
+                    "magnitude":1,
+                    "duration":2,
+                    "chance":"5"
+                },
+                {
+                    "condition":"vulnerability",
+                    "magnitude":2,
+                    "duration":3,
+                    "chance":"2"
+                }
+            ]
+        },
+        "killEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"speed_minor",
+                    "magnitude":1,
+                    "duration":2,
+                    "chance":"5"
+                },
+                {
+                    "condition":"fatigue_minor",
+                    "magnitude":2,
+                    "duration":2,
+                    "chance":"4"
+                },
+                {
+                    "condition":"light_attack",
+                    "magnitude":1,
+                    "duration":2,
+                    "chance":"1"
+                }
+            ]
+        }
+    },
+    {
+        "id":"fish_sausage",
+        "iconID":"items_japozero:515",
+        "name":"Fermented fish sausage",
+        "displaytype":"ordinary",
+        "category":"food",
+        "description":"The smell makes you choke. People eat this?",
+        "useEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"food",
+                    "magnitude":4,
+                    "duration":20,
+                    "chance":"100"
+                },
+                {
+                    "condition":"nausea",
+                    "magnitude":1,
+                    "duration":5,
+                    "chance":"100"
+                }
+            ]
+        }
+    },
+    {
+        "id":"blade_protector",
+        "iconID":"items_rijackson_1:13",
+        "name":"Blade of the protector",
+        "displaytype":"extraordinary",
+        "category":"weapon_blocking",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":2,
+                "max":4
+            },
+            "increaseAttackCost":4,
+            "increaseAttackChance":5,
+            "increaseBlockChance":8,
+            "increaseDamageResistance":1,
+            "setNonWeaponDamageModifier":103
+        },
+        "hitReceivedEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"shadow_prot",
+                    "magnitude":2,
+                    "duration":2,
+                    "chance":"15"
+                }
+            ]
+        }
+    },
+    {
+        "id":"driedperch",
+        "iconID":"items_consumables:24",
+        "name":"Dried perch",
+        "displaytype":"ordinary",
+        "hasManualPrice":1,
+        "baseMarketCost":35,
+        "category":"food",
+        "useEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"food",
+                    "magnitude":2,
+                    "duration":6,
+                    "chance":"100"
+                }
+            ]
+        }
+    },
+    {
+        "id":"seaweed",
+        "iconID":"items_misc_4:32",
+        "name":"Seaweed",
+        "category":"food",
+        "useEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"food",
+                    "magnitude":1,
+                    "duration":8,
+                    "chance":"100"
+                }
+            ]
+        }
+    },
+    {
+        "id":"elixir_life",
+        "iconID":"items_consumables:69",
+        "name":"Elixir of life",
+        "displaytype":"extraordinary",
+        "hasManualPrice":1,
+        "baseMarketCost":1375,
+        "category":"pot",
+        "useEffect":{
+            "increaseCurrentHP":{
+                "min":50,
+                "max":50
+            },
+            "conditionsSource":[
+                {
+                    "condition":"regen",
+                    "magnitude":1,
+                    "duration":30,
+                    "chance":"100"
+                }
+            ]
+        }
+    },
+    {
+        "id":"lobster_claw",
+        "iconID":"items_misc:42",
+        "name":"Lobster claw",
+        "hasManualPrice":1,
+        "baseMarketCost":190,
+        "category":"food",
+        "useEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"food",
+                    "magnitude":2,
+                    "duration":25,
+                    "chance":"100"
                 }
             ]
         }
