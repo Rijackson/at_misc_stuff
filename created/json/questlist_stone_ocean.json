@@ -1,0 +1,76 @@
+[
+    {
+        "id":"stone_ocean",
+        "name":"Stone Ocean",
+		"showInLog": 1,
+        "stages":[
+            {
+                "progress":10,
+                "logText":"I talked with Dzem in a house south of Fallhaven, several gems from his collection have been stolen while on a trip back from Nor city"
+            },
+            {
+                "progress":15,
+                "logText":"I declined to help Dzem find new gems",
+                "finishesQuest":1
+            },
+            {
+                "progress":20,
+                "logText":"I have agreed to help him find several types of gems"
+            },
+            {
+                "progress":25,
+                "logText":"I gave Dzem a glass gem",
+                "rewardExperience":50
+            },
+            {
+                "progress":30,
+                "logText":"I gave Dzem a ruby gem",
+                "rewardExperience":150
+            },
+            {
+                "progress":35,
+                "logText":"I gave Dzem a Polished gem",
+                "rewardExperience":300
+            },
+            {
+                "progress":45,
+                "logText":"I  gave Dzem a sharpened gem",
+                "rewardExperience":500
+            },
+            {
+                "progress":50,
+                "logText":"I gave Dzem a sparkling gem",
+                "rewardExperience":1000
+            },
+            {
+                "progress":60,
+                "logText":"I gave Dzem an azure gem",
+                "rewardExperience":2500
+            },
+            {
+                "progress":70,
+                "logText":"I have brought Dzem all of the gems missing from his collection"
+            },
+            {
+                "progress":80,
+                "logText":"Dzem has asked me to search for monsters carrying rare crystals around Remgard"
+            },
+            {
+                "progress":85,
+                "logText":"I gave Dzem a blue crystal",
+                "rewardExperience":5000
+            },
+            {
+                "progress":90,
+                "logText":"I gave Dzem a red crystal",
+                "rewardExperience":5000
+            },
+            {
+                "progress":100,
+                "logText":"Dzem thanked me for helping him and gave me a ring",
+                "rewardExperience":10000,
+                "finishesQuest":1
+            }
+        ]
+    }
+]
