@@ -188,34 +188,6 @@
         }
     },
     {
-        "id":"blade_protector",
-        "iconID":"items_rijackson_1:13",
-        "name":"Blade of the protector",
-        "displaytype":"extraordinary",
-        "category":"weapon_blocking",
-        "equipEffect":{
-            "increaseAttackDamage":{
-                "min":2,
-                "max":4
-            },
-            "increaseAttackCost":4,
-            "increaseAttackChance":5,
-            "increaseBlockChance":8,
-            "increaseDamageResistance":1,
-            "setNonWeaponDamageModifier":103
-        },
-        "hitReceivedEffect":{
-            "conditionsSource":[
-                {
-                    "condition":"shadow_prot",
-                    "magnitude":2,
-                    "duration":2,
-                    "chance":"15"
-                }
-            ]
-        }
-    },
-    {
         "id":"driedperch",
         "iconID":"items_consumables:24",
         "name":"Dried perch",
