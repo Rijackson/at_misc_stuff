@@ -334,80 +334,37 @@
         }
     },
     {
-        "id":"feline_hat",
-        "iconID":"items_newb:108",
-        "name":"Feline hat",
-        "displaytype":"rare",
-        "hasManualPrice":1,
-        "baseMarketCost":3451,
-        "category":"hd_cloth",
+        "id":"shield_of_brave_upg",
+        "iconID":"items_tometik2:97",
+        "name":"Shield of the Brave",
+        "displaytype":"extraordinary",
+        "baseMarketCost":3800,
+        "category":"shld_mtl_hv",
+        "description":"Provides to its possessor, a level of fearlessness and courage. [TODO: Move to feygard prj when 'Gylew's' family is created.]",
         "equipEffect":{
-            "increaseMaxHP":1,
-            "increaseAttackChance":7,
-            "increaseCriticalSkill":1,
-            "increaseBlockChance":6,
-            "increaseDamageResistance":-1,
-            "setCriticalMultiplier":1.5,
-            "addedConditions":[
-                {
-                    "condition":"clumsiness",
-                    "magnitude":1
-                }
-            ]
+            "increaseAttackChance":-7,
+            "increaseBlockChance":21,
+            "increaseDamageResistance":3
         },
         "hitEffect":{
             "conditionsSource":[
                 {
-                    "condition":"sense_1",
-                    "magnitude":1,
+                    "condition":"fear",
+                    "magnitude":-99,
                     "duration":3,
                     "chance":"5"
                 }
             ]
         },
-        "hitReceivedEffect":{
+        "killEffect":{
             "conditionsSource":[
                 {
-                    "condition":"fear",
+                    "condition":"courage",
                     "magnitude":1,
-                    "duration":2,
-                    "chance":"5"
+                    "duration":4,
+                    "chance":"27"
                 }
             ]
         }
-    },
-{
-    "id":"shield_of_brave_upg",
-    "iconID":"items_tometik2:97",
-    "name":"Shield of the Brave",
-    "displaytype":"extraordinary",
-    "baseMarketCost":3800,
-    "category":"shld_mtl_hv",
-    "description":"Provides to its possessor, a level of fearlessness and courage. [TODO: Move to feygard prj when 'Gylew's' family is created.]",
-    "equipEffect":{
-        "increaseAttackChance":-7,
-        "increaseBlockChance":21,
-        "increaseDamageResistance":3
-    },
-    "hitEffect":{
-        "conditionsSource":[
-            {
-                "condition":"fear",
-                "magnitude":-99,
-                "duration":3,
-                "chance":"5"
-            }
-        ]
-    },
-    "killEffect":{
-        "conditionsSource":[
-            {
-                "condition":"courage",
-                "magnitude":1,
-                "duration":4,
-                "chance":"27"
-            }
-        ]
     }
-}
 ]
