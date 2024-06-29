@@ -269,7 +269,7 @@
         "name":"Feydelight",
         "displaytype":"extraordinary",
         "category":"food",
-        "description":"A popular, but rare holiday Feygardian treat filled with dark chocolate and cranberries. The provided rush of sugar has been know to cause a burst of energy.",
+        "description":"A popular, but rare holiday Feygardian treat filled with fig fruit. The provide a rush of sweetness and have been know to cause a burst of energy.",
         "useEffect":{
             "conditionsSource":[
                 {
