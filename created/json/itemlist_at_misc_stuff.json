@@ -264,36 +264,6 @@
         }
     },
     {
-        "id":"feydelight",
-        "iconID":"items_newb:840",
-        "name":"Feydelight",
-        "displaytype":"extraordinary",
-        "category":"food",
-        "description":"A popular, but rare holiday Feygardian treat filled with fig fruit. The provide a rush of sweetness and have been know to cause a burst of energy.",
-        "useEffect":{
-            "conditionsSource":[
-                {
-                    "condition":"food",
-                    "magnitude":3,
-                    "duration":35,
-                    "chance":"100"
-                },
-                {
-                    "condition":"haste",
-                    "magnitude":1,
-                    "duration":15,
-                    "chance":"100"
-                },
-                {
-                    "condition":"sweet_tooth",
-                    "magnitude":1,
-                    "duration":10,
-                    "chance":"25"
-                }
-            ]
-        }
-    },
-    {
         "id":"brutal_hammer",
         "iconID":"items_newb:473",
         "name":"Brutal hammer",
@@ -342,27 +312,5 @@
         "baseMarketCost":30,
         "category":"other",
         "description":"Raw dough ideal for baking."
-    },
-    {
-        "id":"fig_fruit",
-        "iconID":"items_japozero:499",
-        "name":"Fig",
-        "displaytype":"ordinary",
-        "category":"food",
-        "description":"A Feygardian's favorite fruit.",
-        "useEffect":{
-            "increaseCurrentHP":{
-                "min":1,
-                "max":1
-            },
-            "conditionsSource":[
-                {
-                    "condition":"food",
-                    "magnitude":3,
-                    "duration":3,
-                    "chance":"100"
-                }
-            ]
-        }
     }
 ]
