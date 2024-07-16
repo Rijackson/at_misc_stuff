@@ -302,15 +302,5 @@
             "setCriticalMultiplier":3.25,
             "setNonWeaponDamageModifier":146
         }
-    },
-    {
-        "id":"dough",
-        "iconID":"items_newb:578",
-        "name":"Brightport dough",
-        "displaytype":"ordinary",
-        "hasManualPrice":1,
-        "baseMarketCost":30,
-        "category":"other",
-        "description":"Raw dough ideal for baking."
     }
 ]
