@@ -23,14 +23,5 @@
         "abilityEffect":{
             "increaseMoveCost":1
         }
-    },
-    {
-        "id":"sweet_tooth",
-        "iconID":"actorconditions_japozero:42",
-        "name":"Sweet tooth",
-        "category":"physical",
-        "abilityEffect":{
-            "increaseBlockChance":-20
-        }
     }
 ]
