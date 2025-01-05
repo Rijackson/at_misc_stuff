@@ -1,28 +1,5 @@
 [
     {
-        "id":"celery",
-        "iconID":"items_japozero:554",
-        "name":"Celery",
-        "displaytype":"ordinary",
-        "hasManualPrice":1,
-        "baseMarketCost":3,
-        "category":"food",
-        "description":"Your father always told you to eat your vegetables. But maybe not this.",
-        "useEffect":{
-            "increaseCurrentHP":{
-                "min":0
-            },
-            "conditionsSource":[
-                {
-                    "condition":"food",
-                    "magnitude":1,
-                    "duration":1,
-                    "chance":"100"
-                }
-            ]
-        }
-    },
-    {
         "id":"elixir_unknown",
         "iconID":"items_misc_3:98",
         "name":"Strange elixir",
@@ -154,25 +131,6 @@
                     "condition":"nausea",
                     "magnitude":1,
                     "duration":5,
-                    "chance":"100"
-                }
-            ]
-        }
-    },
-    {
-        "id":"driedperch",
-        "iconID":"items_consumables:24",
-        "name":"Dried perch",
-        "displaytype":"ordinary",
-        "hasManualPrice":1,
-        "baseMarketCost":35,
-        "category":"food",
-        "useEffect":{
-            "conditionsSource":[
-                {
-                    "condition":"food",
-                    "magnitude":2,
-                    "duration":6,
                     "chance":"100"
                 }
             ]
