@@ -232,24 +232,5 @@
             "setCriticalMultiplier":3.25,
             "setNonWeaponDamageModifier":146
         }
-    },
-    {
-        "id":"bwm_shield",
-        "iconID":"items_newb:320",
-        "name":"Blackwater shield",
-        "displaytype":"rare",
-        "hasManualPrice":1,
-        "baseMarketCost":2198,
-        "category":"shld_wd_li",
-        "equipEffect":{
-            "increaseBlockChance":14,
-            "increaseDamageResistance":3,
-            "addedConditions":[
-                {
-                    "condition":"blackwater_misery",
-                    "magnitude":1
-                }
-            ]
-        }
     }
 ]
